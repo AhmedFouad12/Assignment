@@ -1,0 +1,139 @@
+body
+{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+.main-color
+{
+    background: #1e202b;
+}
+.sec-color
+{
+    background: #343749;
+}
+.thired-color
+{
+    background: #292b3a;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.tabs-home
+{
+    padding: 5px 25px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.tabs
+{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.tabs:hover
+{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+}
+.breadcrumb {
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+    font-size: 0.9285714286em;
+}
+
+.breadcrumb a:after {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 7px;
+    background: url(../images/arrow-gray.png) no-repeat;
+    margin: 0 10px;
+}
+.home-button
+{
+    transition: .5s;
+    color: gray;
+    text-decoration: none;
+}
+.home-button:hover
+{
+    text-decoration: underline;
+    color: gray;
+}
+.formation
+{
+    width: 49%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #1e202b;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+.formation:hover
+{
+    border:2px solid #009ad8;
+}
+#emailSub
+{
+    position:absolute;
+    top: 33%;
+    right: 3%;
+}
+.social-icon
+{
+    
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:#1e202b;
+    color: #009ad8;
+    transition: .5s;
+}
+.social-icon:hover
+{
+    color: white;
+    background-color:#009ad8;
+}
+
+@media screen and (max-width: 600px)
+{
+
+.first
+{
+    width: 100% !important;
+}
+#emailSub
+{
+    position:absolute;
+    top: 34%;
+    right: 5%;
+}
+.tabs
+{
+    width: 100%;
+}
+.coustom-colaps
+{
+    
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
