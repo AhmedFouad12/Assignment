@@ -3,7 +3,7 @@ let weatherSearchbutton = document.getElementById('weatherSearchBtn')
 let allItem = [];
 console.log(allItem);
 async function getWeather(index){
-    let apiWeather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b6179dec40504982a53150845221310 &q=${index}&days=3&aqi=no&alerts=no`);
+    let apiWeather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=967562adab99419ba0414649220512 &q=${index}&days=3&aqi=no&alerts=no`);
     let finalRsult = await apiWeather.json()
     allItem.push(finalRsult);
 }
@@ -15,7 +15,7 @@ async function dispalyWeather()
         let cartoona = 
     `<div class="col-md-4 sec-color p-0 ">
     <div class="d-flex main-color p-2 px-4">
-    <div class=" mx-auto">${lastElement.localtime}</div>
+    <div class=" mx-auto">${lastElement.location.localtime}</div>
     </div>
     <div class="p-4"><span class="fs-5">${lastElement.location.name}</span>
     <div class=" d-flex">
